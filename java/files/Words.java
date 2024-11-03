@@ -1,5 +1,5 @@
 import java.io.*;
-class Files
+public class Words
 {
         public static void main(String args[])
         {
