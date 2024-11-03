@@ -1,6 +1,6 @@
 import java.io.File;
 import java.io.IOException;
-public class FILE
+public class CreateFile
 {
 	public static void main(String[] args)
 	{
