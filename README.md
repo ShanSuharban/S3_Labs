@@ -1,11 +1,9 @@
 # lab
-This repo contains lab for data structures and java
+This repository contains S3 KTU 2019 lab codes for data structures using C and JAVA
 
 # codes
 
-ds_c folder contains data structures code and java folder contain java codes
-
-ds code: https://github.com/ShanSuharban/lab/tree/main/ds_c
+ds codes: https://github.com/ShanSuharban/lab/tree/main/ds_c
 
 java codes : https://github.com/ShanSuharban/lab/tree/main/java
 
@@ -13,9 +11,9 @@ This repo does not contain all codes , so it need to be updated.
 
 Make sure you find the correct corresponding codes and make changes to the code and according to your need.
 
-
-
 # warnings:
-Some code contain empty, so make sure you find the correct ones !!!
+Code should be updated according to the labs and exams
 
-Dont just purely download and copy the code, it cause troubles  !!!!
+Dont just purely download and copy the code !!!! 
+
+modify and use according to your needs and usecases 
