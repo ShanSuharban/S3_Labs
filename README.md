@@ -49,7 +49,7 @@ This repository also contain codes that are relevent to lab practice and concept
   ```bash
     wget --no-check-certificate -O repo.zip https://github.com/ShanSuharban/lab/archives/refs/heads/main.zip
 
-##  Warnings ❌
+##  Warnings ❌❌❌
 
 * Dont Download or Copy the codes for exam and other areas ⚠️⚠️⚠️
 
