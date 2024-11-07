@@ -5,9 +5,9 @@ This repository also contain codes that are relevent to lab practice and concept
 
 ##  Some Notes 📝
 
-* DS Codes: https://github.com/ShanSuharban/lab/tree/main/ds_c </>
+* DS Codes: https://github.com/ShanSuharban/S3_Labs/tree/main/ds_c </>
 
-+ Java Codes : https://github.com/ShanSuharban/lab/tree/main/java ♨️
++ Java Codes : https://github.com/ShanSuharban/S3_Labs/tree/main/java ♨️
 
 - Use the codes for Learning Purposes 📖
 
