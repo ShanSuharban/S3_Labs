@@ -38,9 +38,12 @@ void main () {
 
 	while (*c!='\0') {
 		if (isalnum(*c)) {
-			 a= (int)*c;
-			 a=a-48;
-			 push (a);
+			 a= (int)*c; // here the ascii value of the character is obtained
+			 a=a-48; // here we convert that alphabet into an integer .
+			 push (a); // pushed that integer into the stack
+		/* The reason why we using this is because our stack is an integer stack to store the results and the expressions can be both integer and the character.
+  		So if the expression have character , we sucessfully convert into an integer and push into the stack to perform the calculations.
+  		*/
 		}
 		else if (!(isalnum(*c))) {
 			switch (*c) {
