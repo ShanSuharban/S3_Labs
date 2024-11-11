@@ -40,10 +40,11 @@ void MergeSort (int a[], int low, int high)
 	if (high>low)
 	{
 		int mid=(low+high)/2;
-		MergeSort (a,low,mid);
-		MergeSort (a,mid+1,high);
-		Merge(a,low,mid,high);
+		MergeSort (a,low,mid); // recursive calling mergesort for left sub array -> dividing
+		MergeSort (a,mid+1,high); // recursive calling mergesort for right sub array -> dividing 
+		Merge(a,low,mid,high); // recursive merging
 	}
+
 }
 
 void main () 
