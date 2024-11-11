@@ -14,7 +14,7 @@ int partition(int arr[], int low, int high) {
     int i = low;
     int j = high;
 
-    while (i < j) {
+    while (i < j) { // when out of this loop means => i>j
 
         // Find the first element greater than
         // the pivot (from starting)
