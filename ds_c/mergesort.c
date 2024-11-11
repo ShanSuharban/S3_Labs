@@ -42,7 +42,7 @@ void MergeSort (int a[], int low, int high)
 		int mid=(low+high)/2;
 		MergeSort (a,low,mid); // recursive calling mergesort for left sub array -> dividing
 		MergeSort (a,mid+1,high); // recursive calling mergesort for right sub array -> dividing 
-		Merge(a,low,mid,high); // recursive merging
+		Merge(a,low,mid,high); // recursive merging two sub arrays after seperation
 	}
 
 }
