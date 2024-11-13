@@ -47,7 +47,8 @@ This repository also contain codes that are relevent to lab practice and concept
 
 * command:
   ```bash
-    wget --no-check-certificate -O repo.zip https://github.com/ShanSuharban/lab/archives/refs/heads/main.zip
+    wget --no-check-certificate -O repo.zip https://github.com/ShanSuharban/S3_Labs/archive/refs/heads/main.zip
+
 
 ##  Warnings ❌❌❌
 
