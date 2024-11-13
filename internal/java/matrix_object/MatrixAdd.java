@@ -2,11 +2,10 @@ import java .util.Scanner;
 class Matrix
 {
         int [][]a = new int[100][100];
-        //int [][]b = new int[100][100];
         int m,n,i,j;
         void read()
         {
-                System.out.println("Enter the rows and columns of the 2*2  Matrix");
+                System.out.println("Enter the rows and columns :");
                 Scanner input = new Scanner(System.in);
                 m = input.nextInt();
                 n = input.nextInt();
@@ -22,39 +21,30 @@ class Matrix
         }
         Matrix calc(Matrix n2)
         {
-                Matrix o = new Matrix();
+                Matrix m3 = new Matrix();
                 if(this.m==n2.m && this.n==n2.n)
                 {
                         for(i=0;i<m;i++)
                         {
                                 for(j=0;j<n;j++)
                                 {
-                                        o.a[i][j] = this.a[i][j]+n2.a[i][j];
+                                        m3.a[i][j] = this.a[i][j]+n2.a[i][j];
                                 }
                         }
                 }
 
-                /** for(int i=0;i<this.m;i++)
-                {
-                        for(int j=0;j<this.n;j++)
-                        {
-                                System.out.print(" "+o.a[i][j]+" ");
-                        }
-                System.out.println(" ");
-                }**/
-
-                return o;
+                return m3;
 
         }
 
-        void display(Matrix m3)
+        void display()
         {
                 System.out.println("The matrix is");
                 for(int i=0;i<2;i++)
                 {
                         for(int j=0;j<2;j++)
                         {
-                                System.out.print("   "+m3.a[i][j]+" ");
+                                System.out.print("   "+a[i][j]+" ");
                         }
                 System.out.println(" ");
                 }
@@ -70,6 +60,6 @@ public class MatrixAdd
                 m2.read();
                 Matrix m3 = new Matrix();
                 m3 = m1.calc(m2);
-                m3.display(m3);
+                m3.display();
         }
 }
