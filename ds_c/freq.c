@@ -6,18 +6,18 @@ void freq (int a[], int n) {
 	for (i=0;i<n;i++) {
 		b[i]=0;
 	}	
-		for (i=0;i<n;i++) { 
-			count=0;
-			if (b[i]==0) {
-				for (j=0;j<n;j++) {
-					if (a[i]==a[j]) {
+	for (i=0;i<n;i++) { 
+		count=0;
+		if (b[i]==0) {
+			for (j=0;j<n;j++) {
+				if (a[i]==a[j]) {
 						count++;
 						b[j]=1;
-					}
 				}
-			printf ("\nElement %d occurs %d times",a[i],count);
 			}
+			printf ("\nElement %d occurs %d times",a[i],count);
 		}
+	}
 
 }
 void main () {
