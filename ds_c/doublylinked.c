@@ -45,7 +45,7 @@ void deleteFirst ( ) {
 	if (head == NULL)
 		printf ("\nEmpty linked list");
 
-	else if (head -> next == NULL) {
+	else if (head -> next == NULL &&  head -> prev == NULL) {
 		printf ("Deleting %d", head -> data);
 		head=NULL;
 	}
