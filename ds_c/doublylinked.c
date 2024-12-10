@@ -13,6 +13,7 @@ void insertFirst (int x) {
 	else if (head==NULL) {
 		temp -> data = x;
 		temp -> next = NULL;
+		temp -> prev = NULL;
 		head=temp;
 	}
 	else {
